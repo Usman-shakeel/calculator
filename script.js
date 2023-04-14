@@ -6,9 +6,9 @@ var screenValue;
 // var addition;
 
 document.addEventListener('DOMContentLoaded', () => {
-  const inputField = document.querySelector('#screen');
+  var inputField = document.querySelector('#screen');
   screenValue = inputField;
-  console.log(screenValue.value);
+// console.log(screenValue.value);
 });
 
 function clearScreen() {
@@ -56,8 +56,8 @@ function subtraction() {
 }
 
 function equalsTo() {
-    const expression = screenValue.value;
-    const result = eval(expression);
+    var expression = screenValue.value;
+    var result = eval(expression);
     screenValue.value = result;  
 }
 
