@@ -1,9 +1,9 @@
 var screenValue;
 
-var multiplication;
-var division;
-var subtraction;
-var addition;
+// var multiplication;
+// var division;
+// var subtraction;
+// var addition;
 
 document.addEventListener('DOMContentLoaded', () => {
   const inputField = document.querySelector('#screen');
